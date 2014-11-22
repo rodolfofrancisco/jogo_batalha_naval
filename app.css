@@ -1,0 +1,32 @@
+/*Todo o CSS deve ficar aqui*/
+/*td {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}*/
+
+#borad_user td {
+    background: lightblue;
+    height:50px;
+    width:50px;
+    border: 1px solid;
+}
+#borad_user tr:nth-child(odd) td:nth-child(even),
+#borad_user tr:nth-child(even) td:nth-child(odd) {
+    background: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px auto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+.submit {
+    margin-top: 15px;
+}
