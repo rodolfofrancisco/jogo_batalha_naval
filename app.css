@@ -7,8 +7,8 @@
 
 #borad_user td {
     background: lightblue;
-    height:50px;
-    width:50px;
+    height:70px;
+    width:90px;
     border: 1px solid;
 }
 #borad_user tr:nth-child(odd) td:nth-child(even),
@@ -18,9 +18,11 @@
 
 h1 {
     text-align: center;
-    margin: 35px auto;
-    font-size: 40px;
+    font-size: 45px;
     text-transform: uppercase;
+    margin: 60px auto 50px auto;
+    font-weight: bold;
+    color: #6d8fdb;
 }
 
 h2 {
@@ -29,4 +31,36 @@ h2 {
 
 .submit {
     margin-top: 15px;
+}
+
+.center-table {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.font-1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Asap', sans-serif;
+}
+
+.indicacao {
+    position: absolute;
+    font-size: 40px;
+}
+
+.indicacao.linha {
+    margin-left: -40px;
+    margin-top: -25px;
+}
+
+.indicacao.coluna {
+    margin-top: -90px;
+    margin-left: 20px;
+}
+
+.navio {
+    background: gray!important;
 }
